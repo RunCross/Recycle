@@ -15,11 +15,11 @@ public class RecycleList implements RecycleAble ,RecycleRegister{
     }
 
     @Override
-    public void recyle() {
+    public void recycle() {
         if (recycleAbles != null) {
             for (RecycleAble recycleAble : recycleAbles) {
                 if (recycleAble != null) {
-                    recycleAble.recyle();
+                    recycleAble.recycle();
                 }
             }
             recycleAbles.clear();
